@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import { useContext,  useRef } from 'react'
 import { NavbarContext } from '../../context/NavbarContexts'
 
-const FullScreenNav = () => {
+const FullscreenNav = () => {
     const fullNavLinksRef = useRef(null)
     const fullScreenRef = useRef(null)
 
@@ -174,4 +174,4 @@ const FullScreenNav = () => {
     )
 }
 
-export default FullScreenNav
+export default FullscreenNav
