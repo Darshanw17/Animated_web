@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import Agence from './pages/Agence'
 import Projects from './pages/Projects'
 import Navbar from './components/Navigation/Navbar'
-import FullScreenNav from './components/Navigation/FullscreenNav'
+import FullscreenNav from './components/Navigation/FullscreenNav'
 
 
 
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className='overflow-x-hidden'>
       <Navbar />
-     <FullScreenNav />
+     <FullscreenNav />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/agence' element={<Agence />} />
